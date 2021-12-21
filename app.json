@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/form/form",
+    "pages/jayapps/jayapps",
+    "pages/review/review"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#D03232",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "JayApps",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "backgroundColor": "#FFFFFE",
+    "borderStyle": "black",
+    "selectedColor": "#D03232",
+    "color": "#131313",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/form.png",
+        "selectedIconPath": "image/form-hover.png",
+        "text": "Form"
+      },
+      {
+        "pagePath": "pages/jayapps/jayapps",
+        "iconPath": "image/about.png",
+        "selectedIconPath": "image/about-hover.png",
+        "text": "About"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

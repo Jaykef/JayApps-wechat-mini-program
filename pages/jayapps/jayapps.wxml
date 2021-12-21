@@ -1,0 +1,20 @@
+<!--wagon.wxml-->
+<view class="header">
+ <view class="h1-header">JayApps will professionally turn your app idea into a real working product within days.
+ </view>
+</view>
+<!-- <view class="center-logo">
+ <image class="wagon-logo" src="/image/white_logo_red_font.png"></image>
+</view> -->
+<view class="wagon-wrap">
+ <view class="h3-about">More than just building Apps.</view>
+ <view class="desc-about">JayApps supports clients in their path to <text class="em">climb the technical wall</text> they were so afraid of when they first started.</view>
+ <view class="wrap-quote">
+  <view class="quote">“JayApps have so far change the entire rythm of my start-up, with an app so professionally built it pitches to investors blew minds and got us funding ”</view>
+  <view class="author">– The Avalanche</view>
+ </view>
+ <view bindtap="onShareAppMessage">
+  <button class="share-btn" open-type="share" type="primary">Share to your friends</button>
+ </view>
+</view>
+

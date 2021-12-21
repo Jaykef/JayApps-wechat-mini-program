@@ -1,0 +1,122 @@
+/**wagon.wxss**/
+/* Header */
+.header {
+  text-align: center;
+  background-size: cover;
+  height: 300px;
+  display:flex;
+  align-items: center;
+  background-image: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%, rgba(46,46,46,0.5) 80%), url('https://tse4-mm.cn.bing.net/th/id/OIP-C.ej7D31qHOyaEBAdlBpaxFwHaFj?w=220&h=180&c=7&r=0&o=5&dpr=2&pid=1.7');
+  background-position: center;
+}
+
+/* Body style */
+.center-logo {
+  text-align: center;
+  padding-top: 10px;
+}
+.wagon-logo {
+  width: 200px;
+  height: 90px;
+  text-align: center;
+  margin-top: 15px;
+}
+.wagon-wrap {
+  padding: 10px 10px;
+  margin: 0px 10px;
+  text-align: left;
+}
+.h3-about {
+  font-weight: bold;
+  font-size: 40rpx; 
+}
+.h3-margin { 
+  margin-top: 25px;
+}
+.desc-about {
+  margin-top: 35rpx;
+  color: #888888;
+  font-size: 30rpx;
+  line-height: 18px;
+}
+
+/* Quote */
+.wrap-quote {
+  text-align:center;
+  margin-top:10px;
+}
+.uber {
+  width: 100px;
+  height: 22px;
+  margin-top: 18px;
+  margin-bottom: 2px;
+}
+.quote {
+  color: #888888;
+  font-style: italic;
+  font-size: 25rpx;
+  line-height:17px;
+  text-align: center;
+  padding-top: 5px;
+}
+.author {
+  font-size: 12px;
+  text-align: center;
+  padding-top: 7px;
+}
+
+/* Icons */
+.icon-com {
+  width: 30px;
+  height: 21px;
+}
+.icon-share {
+  width: 24px;
+  height: 21px;
+}
+
+/* Btn */
+.share-btn {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+.container{
+  width:100px;
+	height:200px;
+	margin:0px auto;
+}
+
+.wagon-pin image{
+  position: relative;
+	width: 90px;
+	height: 90px;
+	top: 20px;
+  left: 4px;
+  opacity: 0.7;
+	animation: wagon-rebond ease 2s infinite;
+}
+
+
+.shadow{
+  position: relative;
+	height:16px;
+	background: #999;
+	opacity:0.1;
+	border-radius:100%;
+	margin:0px 0px 0px 0px;
+	top:100px;
+	animation: shadow ease 2s infinite;
+}
+
+
+@keyframes wagon-rebond { 50% { top: 100px; opacity: 1; } 100% { top: 20px; opacity: 0.7 scale(2); } }
+
+
+@keyframes shadow { 50% { margin:0px 20% 0px 20%; opacity:0.7; } 100% { margin:0px 0px 0px 0px; opacity:0.1;  } }

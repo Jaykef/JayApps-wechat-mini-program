@@ -1,0 +1,25 @@
+<view class="header">
+ <view class="h1-header">JayApps "is collection of mobile and web apps created by Jaykef"
+    <view class="author">– Avalanche, 2021</view>
+ </view>
+</view>
+<view class="wagon-wrap">
+ <view class="desc">Thanks for building your app with me. I would love to know what you think about my work and <text class="em"> help improve my skills.</text> 
+ </view>
+ <view class="container-flex">
+  <view class="cta-margin">
+   <navigator url="/pages/form/form" class="btn-index">{{form}}</navigator>
+
+  <view class="cta-margin">
+   <navigator url="/pages/review/review" class="btn-index">Reviews list</navigator>
+  </view>
+ </view>
+
+
+<!-- CTA to redirect to reviews page -->
+
+</view>
+</view>
+
+
+

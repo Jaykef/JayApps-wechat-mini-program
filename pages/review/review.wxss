@@ -1,0 +1,57 @@
+/* review.wxss */
+.review-container {
+  background-color: #F4F4F4;
+  padding: 1px 20px;
+  padding-bottom:20px;
+}
+/* Header */
+.header {
+  text-align: center;
+  align-content: center;
+  background-color: #703b3b;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #656464;
+}
+.h1-header {
+  color:rgb(247, 247, 247);
+  font-size: 45rpx; 
+  font-weight: 800;
+  padding: 30px;
+}
+
+/* Cards */
+
+.card {
+  display: flex;
+  min-height: 135px;
+  max-width: 335px;
+  min-width: 275px;
+  position: relative;
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 2px;
+  border-left: 5px solid #703b3b;
+  box-shadow: 3px 6px 12px 0px rgba(0,0,0,0.1); 
+}
+.card-description {
+  padding: 10px 10px;
+  width: 90%;
+  color: black;
+  font-size: 27rpx;
+  line-height: 18px;
+}
+
+.card-author {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: black;
+}
+.em {
+  font-weight: bold;
+}

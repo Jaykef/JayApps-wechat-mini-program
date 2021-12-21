@@ -1,0 +1,87 @@
+<!--pages/form/form.wxml-->
+<view class="header">
+ <view class="h1-header">Thanks for building your app with me. Care to share your experience?</view>
+</view>
+<view class="container form">
+ <form bindsubmit="bindFormSubmit">
+  <view class="header-form">
+   <view class="h2-form">Quick JayApps Review</view>
+  </view>
+  <view class="user-input">
+   <view class="input-label">Generally how was the App?</view>
+   <text class="label-details">Hints: User interface, user experience, speed, design...</text>
+   <view class="text-area-wrp">
+    <textarea class="input-height" name="review" maxlength="-1" />
+   </view>
+  </view> 
+  <view class="user-input">
+   <view class="input-label">How will you rate JayApps?</view>
+   <view class="text-area-wrp">
+    <slider min="0" max="10" name='recommendation'show-value/>
+   </view>
+  </view>
+  <view class="header-form">
+   <view class="h2-form">Need a new app?</view>
+  </view>
+  <view class="user-input">
+   <view class="input-label">What kind of app?</view>
+   <text class="label-details">Hints: e-commerce, e-learning, entertainment, ...</text>
+   <view class="text-area-wrp">
+    <textarea class="input-height" name="learntocode" maxlength="-1" />
+   </view>
+  </view>
+  <view class="user-input">
+   <view class="input-label">What kind of app?</view>
+   <checkbox-group name="hearAbout" class="checkbox-margin">
+    <view class="checkbox">
+     <checkbox value="crew"/>e-Commerce
+    </view>
+    <view class="checkbox">
+     <checkbox value="student"/>e-learning
+    </view>
+    <view class="checkbox">
+     <checkbox value="wom"/>Social Media
+    </view>
+    <view class="checkbox">
+     <checkbox value="meetup"/>Entertainment
+    </view>
+    <view class="checkbox">
+     <checkbox value="wechat"/>Portfolio
+    </view>
+    <view class="checkbox">
+     <checkbox value="google"/>Game
+    </view>
+    <view class="checkbox">
+     <checkbox value="other"/>Other
+    </view>
+   </checkbox-group>      
+  </view>
+  <view class="user-input">
+   <view class="input-label">Interested in an appointment?</view>
+   <text class="label-details">For detail discussion about your app.</text>   
+   <checkbox-group name="interestedIn">   
+    <view class="checkbox checkbox-margin">
+     <checkbox value="yes" checked="true"/>Yes
+     <checkbox class="internal-checkbox-margin" value="no"/>No
+    </view>  
+   </checkbox-group> 
+  </view>
+  <view class="user-input">
+   <view class="input-label-target">Your contact details:</view>
+   <view class="text-area-wrp">
+    <textarea placeholder="name" class="input-contact" value="{{userInfo.nickName}}" name="nickName" auto-height />
+   </view>
+   <view class="text-area-wrp">
+    <textarea placeholder="email@email.com" name="email" class="input-contact" auto-height />
+   </view>
+   <view class="text-area-wrp">
+    <textarea placeholder="+86 185******" name="phone" class="input-contact" auto-height />
+   </view>             
+  </view>
+
+  <view class="label-details"> Tip: turn off vpn if unable to send </view>
+  <button type="primary" form-type="submit" loading="{{loading}}">Send</button>
+ </form>
+</view>
+
+
