@@ -1,4 +1,4 @@
-This WeChat mini-program was built at [Le Wagon China coding bootcamp](https://www.lewagon.com/shanghai) to gather feedback from Le Wagon community after workshops.  
+This WeChat mini-program was built to gather feedback from JayApps users.  
 
 
 ```
